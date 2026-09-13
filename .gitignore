@@ -1,0 +1,58 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Dependencies & Virtual Envs
+node_modules/
+frontend/node_modules/
+.venv/
+backend/.venv/
+env/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Build & Distribution outputs
+dist/
+frontend/dist/
+build/
+out/
+
+# Local databases & storage
+*.db
+*.sqlite
+*.sqlite3
+backend/devsecagent.db
+
+# Logs & Temporary runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+temp/
+tmp/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Internal Reference & Scratch documentation (Excluded from repo)
+docs_reference/
+PROGRESS.md
+preview-intro-glowing.html
+GUIDE_2_3_MONTHS.md
