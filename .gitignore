@@ -51,8 +51,3 @@ tmp/
 Thumbs.db
 *.swp
 
-# Internal Reference & Scratch documentation (Excluded from repo)
-docs_reference/
-PROGRESS.md
-preview-intro-glowing.html
-GUIDE_2_3_MONTHS.md
